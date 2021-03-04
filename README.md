@@ -33,16 +33,11 @@ branch. Pull requests are warmly welcome.
 
 ## Links
 
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
 - Repository: https://github.com/faycalki/Euclidean_Algorithm_and_LCM/
 - Issue tracker: https://github.com/faycalki/Euclidean_Algorithm_and_LCM/issues/
   - In case of sensitive bugs like security vulnerabilities, please contact
     icechillgaming@gmail.com directly instead of using the issue tracker. I greatly appreciate any efforts to improve the security of my projects.
-- Related projects:
-  - Your other project: https://github.com/faycalki/
+  - My other projects, feel free to check them out: https://github.com/faycalki/
 
 ## Licensing
 
