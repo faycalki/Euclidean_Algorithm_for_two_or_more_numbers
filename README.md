@@ -1,4 +1,4 @@
-![Logo of the project](https://i.imgur.com/9B7DnGd.png)
+![Logo of the project](https://i.imgur.com/GB1gyvV.png)
 
 # The Euclidean Algorithm implementation with the LCM
 

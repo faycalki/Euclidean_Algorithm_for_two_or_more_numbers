@@ -1,12 +1,24 @@
-#By Faycal Kilali 04-Mar-2021
+#   License and Author
+__author__ = "Faycal Kilali"
+__copyright__ = "Copyright (C) 2021 Faycal Kilali"
+__license__ = "\nGNU GENERAL PUBLIC LICENSE"
+__license_version__ = "3.0"
+
+#   Purpose and version of program
+purpose = "This program computes the highest common factor of any two integers as well as their lowest common multiple."
+__version__ = "\nProgram Version: 1.2"
+
+#   Display purpose and version, license and version of license.
+print(purpose, __version__)
+print(__copyright__, __license__, __license_version__)
+
 def errormessage_function():
     print("Please input an integer, and make sure the integer is not zero.")
 
-print("This program computes the highest common factor of two integers as well as their lowest common multiple.")
 Actively_computing = False
 while Actively_computing == False:
   try:
-   string_a = input("Input an integer:") #Obtain user input as a string
+   string_a = input("Input an integer: ") #Obtain user input as a string
    try: 
         float(string_a)
    except ValueError:
@@ -20,7 +32,7 @@ while Actively_computing == False:
    if a == 0:
        errormessage_function()
        continue
-   string_b = input("Input a second integer:") #Obtain second user input as a string
+   string_b = input("Input a second integer: ") #Obtain second user input as a string
    try: 
         float(string_b)
    except ValueError:
