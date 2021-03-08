@@ -45,4 +45,4 @@ The code in this project is licensed under the GNU General Public License v3.0.
 
 ## Disclaimer
 
-This project is intended to be used for legal purposes only, and pursuant to the license terms and conditions provided.
+This project is intended to be used for legal purposes only, and is pursuant to the license terms and conditions provided.
