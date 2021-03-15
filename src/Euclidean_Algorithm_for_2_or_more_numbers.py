@@ -30,8 +30,9 @@ def errormessage_function(number):
 
 
 def inductive_traversal_lcm(list_of_discretes, hcf):
+    result = 1
     for t in list_of_discretes:
-        result = t
+        result = result * t
     return result / hcf
 
 
