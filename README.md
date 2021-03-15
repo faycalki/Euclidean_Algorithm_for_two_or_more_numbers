@@ -27,7 +27,7 @@ git clone https://github.com/faycalki/Euclidean_Algorithm_for_2_or_more_numbers.
 ## Features
 
 * Efficiently computes the greatest common divisor of any n number of integers, as well as their lowest common multiple.
-* Minimal dependencies (no external packages or modules loaded).
+* Minimal dependencies.
 * Can be implemented as a fully modular program with minimal editing.
 
 ## Contributing
