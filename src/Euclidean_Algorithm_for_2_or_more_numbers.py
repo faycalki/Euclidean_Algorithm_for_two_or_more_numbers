@@ -14,6 +14,7 @@ print(__copyright__, "\n", __license__, __license_version__, "\n")
 
 # Importing License disclaimer and extra details input
 from license_input import *
+
 reveal_license_options()
 
 # Importing exit implementation
@@ -33,7 +34,7 @@ def inductive_traversal_lcm(list_of_discretes, hcf):
     result = 1
     for t in list_of_discretes:
         result = result * t
-    return result / hcf
+    return result // hcf
 
 
 halt = False
