@@ -10,6 +10,9 @@ def errormessage_function(number):
         pass
 
 
+# Finds the smallest s,t integers such that sa + tb = hcf(a,b)
+
+
 def bezouts_identity(a, b):
     if b == 0:
         return 1, 0, a
@@ -17,6 +20,15 @@ def bezouts_identity(a, b):
         q, r = divmod(a, b)
         x, y, g = bezouts_identity(b, r)
         return y, x - q * y, g
+
+    # Finds positive integer s such that ya + sb = hcf(a,b)
+
+
+def bezouts_identity_positive(s, a, b):
+    if s < 0:
+        while s * b < 0:
+            s = s + a * b
+        return s
 
 
 def inductive_traversal_lcm(list_of_discretes, hcf):

@@ -15,7 +15,7 @@ Python Interpreter 3+ is required in order to compile the code, you may build th
 Standard compilation is all that is needed.
 
 ```shell
-python Euclidean_Algorithm_for_2_or_more_numbers_interface.py
+python Euclidean_Algorithm_for_2_or_more_numbers_main.py
 ```
 
 Once the code is executed, you will be provided with a prompt asking you the number of integers you'd like to compute the HCF and LCM of, as well as the integers themselves. For Bezout's Identity you'll need to call upon it by making your own script.

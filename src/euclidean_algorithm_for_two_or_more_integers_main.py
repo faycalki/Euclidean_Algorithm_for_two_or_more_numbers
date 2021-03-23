@@ -21,7 +21,7 @@ license_input.reveal_license_options()
 from Modules import exit_with_q_module
 
 # Backend
-import euclidean_algorithm_for_two_or_more_numbers_modular
+import euclidean_algorithm_for_two_or_more_numbers_impl
 
 
 def interface_main():
@@ -42,7 +42,7 @@ def interface_main():
         modular_euclidean_algorithm_for_two_or_more_numbers.errormessage_function(2)
     else:
 
-        euclidean_algorithm_for_two_or_more_numbers_modular.modular_euclidean_algorithm(
+        euclidean_algorithm_for_two_or_more_numbers_impl.modular_euclidean_algorithm(
             string_n,
             modularity,
             first_factor_modularity,
