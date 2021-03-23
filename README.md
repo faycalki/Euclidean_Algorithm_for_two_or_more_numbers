@@ -7,16 +7,18 @@ With this program I demonstrate the capability of those results by providing my 
 
 This is an implementation of an inductive euclidean algorithm such that it allows you to compute the HCF and LCM of any n number of integers.
 
+Also features extended euclidean algorithm, which outputs Bezout's Identity, with a patch to make it only output positive coefficient of the smaller integer in Bezout's Identity.
+
 ## Installing / Getting started
 
 Python Interpreter 3+ is required in order to compile the code, you may build this into an executable through other means if you wish. 
 Standard compilation is all that is needed.
 
 ```shell
-python Euclidean_Algorithm_for_2_or_more_numbers.py
+python Euclidean_Algorithm_for_2_or_more_numbers_interface.py
 ```
 
-Once the code is executed, you will be provided with a prompt asking you the number of integers you'd like to compute the HCF and LCM of, as well as the integers themselves.
+Once the code is executed, you will be provided with a prompt asking you the number of integers you'd like to compute the HCF and LCM of, as well as the integers themselves. For Bezout's Identity you'll need to call upon it by making your own script.
 
 ## Developing
 
@@ -29,6 +31,7 @@ git clone https://github.com/faycalki/Euclidean_Algorithm_for_2_or_more_numbers.
 * Efficiently computes the greatest common divisor of any n number of integers, as well as their lowest common multiple.
 * Minimal dependencies.
 * Can be implemented as a fully modular program with minimal editing.
+* Extended euclidean algorithm, which outputs Bezout's Identity, with a patch to make it only output positive coefficient of the smaller integer in Bezout's Identity.
 
 ## Contributing
 

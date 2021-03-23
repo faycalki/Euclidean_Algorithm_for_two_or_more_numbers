@@ -12,18 +12,15 @@ __license_version__ = "3.0"
 print(__purpose__, "\n", __version__)
 print(__copyright__, "\n", __license__, __license_version__, "\n")
 
-# Additional directories to look for Modules
-import sys
-
-sys.path.append("Modules")
-
 # Importing License disclaimer and extra details input
-from license_input import *
+from Modules import license_input
 
-reveal_license_options()
+license_input.reveal_license_options()
 
 # Importing exit implementation
-from exit_with_q_module import quit_program
+from Modules import exit_with_q_module
+
+# Backend
 import euclidean_algorithm_for_two_or_more_numbers_modular
 
 
@@ -36,7 +33,7 @@ def interface_main():
         "Input the number of integers for which you would like to compute the hcf and lcm: "
     )
     if string_n == "q":
-        exit_program()
+        exit_with_q_module.quit_program()
     try:
         int(string_n)
     except ValueError:
